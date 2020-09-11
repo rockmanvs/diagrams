@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T19:05:38.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="liIjsO82fFZKGoutHMLU" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T19:07:36.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="23lu0vxEBAR2aXIAM24R" version="13.6.9" type="github">
   <diagram id="oJIDm6GRaybIUrHKkS1g" name="第 1 页">
     <mxGraphModel dx="786" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,9 @@
         </mxCell>
         <mxCell id="ONFs0mGDoOaI4SjJLTtD-37" value="server&lt;br&gt;netty/mina" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONFs0mGDoOaI4SjJLTtD-40" value="反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
