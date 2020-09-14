@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T17:25:41.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="-TQELqu0zTfnVlgfnS-U" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T17:26:07.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="gCgkd_PXBynNxPbRQwnN" version="13.6.9" type="github">
   <diagram id="D9xsLUVS_GD7FEvIN6XC" name="第 1 页">
     <mxGraphModel dx="786" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="mkK5hTNAKVYOM5QNlGY5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mkK5hTNAKVYOM5QNlGY5-10" target="mkK5hTNAKVYOM5QNlGY5-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mkK5hTNAKVYOM5QNlGY5-10" value="IO多路复用" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="mkK5hTNAKVYOM5QNlGY5-10" value="IO多路复用&lt;br&gt;&lt;br&gt;单线程（所有操作都需要排队）" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="630" y="260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mkK5hTNAKVYOM5QNlGY5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mkK5hTNAKVYOM5QNlGY5-32" target="mkK5hTNAKVYOM5QNlGY5-10">
