@@ -1,80 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T19:39:29.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="OniJFhmQ3fMPwAvEJm3q" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T19:56:39.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" etag="EaetYDBrhBCqUWYaorO2" version="13.7.1" type="github">
   <diagram id="ZEE7nia4Mm5e368Y0eLy" name="第 1 页">
     <mxGraphModel dx="786" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c1NGPc3kPbmroxgDtqJw-1" target="c1NGPc3kPbmroxgDtqJw-5">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="c1NGPc3kPbmroxgDtqJw-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="180" />
+              <mxPoint x="490" y="180" />
             </Array>
+            <mxPoint x="570" y="180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-11" value="每隔n分钟&lt;br&gt;生成快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1NGPc3kPbmroxgDtqJw-6">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-11" value="每隔n分钟&lt;br&gt;生成快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1NGPc3kPbmroxgDtqJw-6" vertex="1" connectable="0">
           <mxGeometry x="0.425" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-1" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-1" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="100" width="440" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-4" value="不断写入redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c1NGPc3kPbmroxgDtqJw-3" target="c1NGPc3kPbmroxgDtqJw-1">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-4" value="不断写入redis" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c1NGPc3kPbmroxgDtqJw-3" target="c1NGPc3kPbmroxgDtqJw-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-3" value="线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-3" value="线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="60" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-5" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-5" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c1NGPc3kPbmroxgDtqJw-10">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="c1NGPc3kPbmroxgDtqJw-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="462.5" y="180" as="sourcePoint" />
+            <mxPoint x="512.5" y="320" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="440" y="180" />
+              <mxPoint x="490" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-12" value="每隔n分钟&lt;br&gt;生成快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1NGPc3kPbmroxgDtqJw-8">
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-12" value="每隔n分钟&lt;br&gt;生成快照&lt;br&gt;&lt;br&gt;把旧的替换掉" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="c1NGPc3kPbmroxgDtqJw-8" vertex="1" connectable="0">
           <mxGeometry x="0.161" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-10" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c1NGPc3kPbmroxgDtqJw-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="592.5" y="180" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="570" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-14" value="每隔n分钟&lt;br&gt;生成快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1NGPc3kPbmroxgDtqJw-13">
-          <mxGeometry x="0.161" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-15" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="c1NGPc3kPbmroxgDtqJw-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="722.5" y="180" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="700" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-17" value="每隔n分钟&lt;br&gt;生成快照" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c1NGPc3kPbmroxgDtqJw-16">
-          <mxGeometry x="0.161" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c1NGPc3kPbmroxgDtqJw-18" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="c1NGPc3kPbmroxgDtqJw-10" value="RDB文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
