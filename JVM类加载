@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T13:17:06.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="XvpESuxlyvpnfA_YIEXP" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T13:20:44.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="kQ8TLIUHp09zJ8ArDDEB" version="13.9.3" type="github">
   <diagram id="KDztuc5dz3A8cpro7rPb" name="第 1 页">
     <mxGraphModel dx="786" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zXmlogS-_VY9-nCZOv98-1" value="&lt;div&gt;public class ReplicaManager {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; public static int flushInterval = Configuration.getInt(&quot;replica.flush.interval&quot;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; public static Map&amp;lt;String, Replica&amp;gt; replicas;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; static {&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; loadReplicaFromDish();&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; public static void loadReplicaFromDish() {&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.replicas = new HashMap&amp;lt;&amp;gt;();&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="70" y="500" width="620" height="200" as="geometry" />
+          <mxGeometry x="70" y="500" width="420" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zXmlogS-_VY9-nCZOv98-5" value="使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zXmlogS-_VY9-nCZOv98-2" target="zXmlogS-_VY9-nCZOv98-4">
           <mxGeometry relative="1" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zXmlogS-_VY9-nCZOv98-3" value="&lt;div&gt;public class Kafka {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; public static void main(String[] args) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ReplicaManager replicaManager = new ReplicaManager();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="70" y="380" width="620" height="100" as="geometry" />
+          <mxGeometry x="70" y="380" width="370" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zXmlogS-_VY9-nCZOv98-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zXmlogS-_VY9-nCZOv98-4" target="zXmlogS-_VY9-nCZOv98-16">
           <mxGeometry relative="1" as="geometry" />
@@ -68,6 +68,12 @@
         </mxCell>
         <mxCell id="zXmlogS-_VY9-nCZOv98-19" value="解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zXmlogS-_VY9-nCZOv98-25" value="准备：给变量赋值，如果变量的值是第二个类赋予的，那就先给默认值。&lt;br&gt;初始化：给变量真正赋值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zXmlogS-_VY9-nCZOv98-26" value="类加载器：&lt;br&gt;Bootstrap classloader:&lt;br&gt;Extension classloader:&lt;br&gt;application classloader:&lt;br&gt;&lt;br&gt;双亲委派机制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="530" width="260" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
