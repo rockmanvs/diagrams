@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T04:24:32.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NrpZTEcr0NW0ba7rO1Na" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T04:25:29.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Byq5AyLHw-DhZMO56ajA" version="13.10.6" type="github">
   <diagram id="uF8e7TIIUJ_3gz2ZU23o" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,6 +117,9 @@
         </mxCell>
         <mxCell id="xt5hc9Lw59CHTrJPZXBb-35" value="磁盘&lt;br&gt;（存放数据）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vUopK7KSeHUhoUmHXggP-2" value="MySQL的架构设计中，SQL接口、SQL解析器、查询优化器其实都是通用的，他就是一套组件而已。&lt;br/&gt;但是存储引擎的话，他是支持各种各样的存储引擎的，比如我们常见的InnoDB、MyISAM、Memory等等，我们是可以选择&lt;br/&gt;使用哪种存储引擎来负责具体的SQL语句执行的。&lt;br/&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="280" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
