@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T06:23:30.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rpB490hRlh1snakr09wL" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T06:33:53.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="g7RO2iQIsTPM3Z03Sikn" version="13.10.6" type="github">
   <diagram id="DoIGknY1KvwOHWvYeFp_" name="第 1 页">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="E-fpzYI40ZSotkjuiIgI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E-fpzYI40ZSotkjuiIgI-16" target="E-fpzYI40ZSotkjuiIgI-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E-fpzYI40ZSotkjuiIgI-16" value="select @innodb_flush_log_at_trx_commit;&lt;br&gt;redo日志的处理：&lt;br&gt;0：redo日志在缓冲中，不刷入磁盘&lt;br&gt;1：redo日志在提交事务成功时一起刷入磁盘中&lt;br&gt;2：redo日志写入os cache，让系统选择啥时候写入磁盘" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="460" y="410" width="320" height="90" as="geometry" />
+        <mxCell id="E-fpzYI40ZSotkjuiIgI-16" value="select @innodb_flush_log_at_trx_commit;&lt;br&gt;redo日志的处理：&lt;br&gt;0：redo日志在缓冲中，不刷入磁盘&lt;br&gt;1：redo日志在提交事务成功时一起刷入磁盘中【建议使用】&lt;br&gt;2：redo日志写入os cache，让系统选择啥时候写入磁盘" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="330" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
