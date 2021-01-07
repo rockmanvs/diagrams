@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T09:17:45.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gadwHyD7LiwFtpIK5TVj" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T09:20:08.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8wdaDO8opFyVgG0p0FIa" version="14.1.8" type="github">
   <diagram id="axrobwmcznrsnI2ns-UM" name="第 1 页">
     <mxGraphModel dx="1550" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,25 +318,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-37" value="文件头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-37" value="文件头(38字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="610" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-38" value="数据页头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-38" value="数据页头(56字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="640" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-39" value="最大记录&lt;br&gt;最小记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-39" value="最大记录&lt;br&gt;最小记录(26字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="670" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-40" value="多个数据行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-40" value="多个数据行(不固定)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="700" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-41" value="空闲区域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-41" value="空闲区域(不固定)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="730" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-43" value="数据页目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-43" value="数据页目录(不固定)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="760" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vltSeONguuaIx6uVipFi-44" value="文件尾部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vltSeONguuaIx6uVipFi-44" value="文件尾部(8字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="790" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vltSeONguuaIx6uVipFi-46" value="&lt;div style=&quot;text-align: justify&quot;&gt;数据页&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;(16KB)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
