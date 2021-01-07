@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T09:20:08.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="8wdaDO8opFyVgG0p0FIa" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T09:22:34.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zAYt0bUk9KCgAH_HETZp" version="14.1.8" type="github">
   <diagram id="axrobwmcznrsnI2ns-UM" name="第 1 页">
     <mxGraphModel dx="1550" dy="1571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,6 +341,15 @@
         </mxCell>
         <mxCell id="vltSeONguuaIx6uVipFi-46" value="&lt;div style=&quot;text-align: justify&quot;&gt;数据页&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;(16KB)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="565" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vltSeONguuaIx6uVipFi-48" value="&lt;h3&gt;数据库刚启动时数据行为空的&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="705" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vltSeONguuaIx6uVipFi-49" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="vltSeONguuaIx6uVipFi-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="740" as="sourcePoint" />
+            <mxPoint x="290" y="715" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
