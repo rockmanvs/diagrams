@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T06:38:41.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="nCB-qiyt3zdPZMYjNEap" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T06:40:34.333Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="VrfzJ6gq6TTDDPyHpolD" version="13.9.3" type="github">
   <diagram id="V5VCtJclp6yz3inocwlx" name="第 1 页">
     <mxGraphModel dx="1853" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="510" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="142" y="800" width="508" height="200" as="geometry" />
         </mxCell>
@@ -66,6 +69,14 @@
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-23" value="redo log&lt;br&gt;一个日志文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="331" y="810" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X0qLFLQMUrFtz5jlM0mA-24" target="X0qLFLQMUrFtz5jlM0mA-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="859" />
+              <mxPoint x="80" y="555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-24" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="155" y="844" width="80" height="30" as="geometry" />
@@ -139,11 +150,11 @@
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-47" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="960" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X0qLFLQMUrFtz5jlM0mA-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="510" height="250" as="geometry" />
-        </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-49" value="redo log buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="343" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X0qLFLQMUrFtz5jlM0mA-50" target="X0qLFLQMUrFtz5jlM0mA-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-50" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="540" width="110" height="30" as="geometry" />
