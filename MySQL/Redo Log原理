@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T06:37:12.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="a6vNTOFSg5MtBlvSsMTK" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T06:38:41.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="nCB-qiyt3zdPZMYjNEap" version="13.9.3" type="github">
   <diagram id="V5VCtJclp6yz3inocwlx" name="第 1 页">
-    <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="910" width="508" height="200" as="geometry" />
+          <mxGeometry x="142" y="800" width="508" height="200" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="35" width="252" height="210" as="geometry" />
@@ -65,79 +65,79 @@
           <mxGeometry x="636" y="35" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-23" value="redo log&lt;br&gt;一个日志文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="369" y="920" width="130" height="30" as="geometry" />
+          <mxGeometry x="331" y="810" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-24" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="155" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-25" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="273" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="235" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-26" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="315" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-27" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-28" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="480" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-29" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="954" width="80" height="30" as="geometry" />
+          <mxGeometry x="560" y="844" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-30" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="155" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-31" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="273" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="235" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-32" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="315" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-33" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-34" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="480" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-35" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="990" width="80" height="30" as="geometry" />
+          <mxGeometry x="560" y="880" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-36" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="155" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-37" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="273" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="235" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-38" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="315" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-39" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-40" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="480" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-41" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="1030" width="80" height="30" as="geometry" />
+          <mxGeometry x="560" y="920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-42" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="155" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-43" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="273" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="235" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-44" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="315" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-45" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-46" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="480" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-47" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="1070" width="80" height="30" as="geometry" />
+          <mxGeometry x="560" y="960" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="490" width="510" height="250" as="geometry" />
@@ -207,6 +207,24 @@
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-70" value="&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;1、redo log buffer是申请出来的一片连续内存，然后里面划分出了N多个空的redo log block，类似于buffer pool&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;2、通过设置mysql的innodb_log_buffer_size可以指定这个redo log buffer的大小，默认的值就是16MB，其实已经够大了，毕 竟一个redo log block才512自己而已，每一条redo log其实也就几个字节到几十个字节罢了。&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;3、如果写入redo log buffer的日志已经占据了redo log buffer总容量的一半了，也就是超过了8MB的redo log在 缓冲里了，此时就会把他们刷入到磁盘文件里去&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;4、一个事务提交的时候，必须把他的那些redo log所在的redo log block都刷入到磁盘文件里去，只有这样，当事 务提交之后，他修改的数据绝对不会丢失，因为redo log里有重做日志，随时可以恢复事务做的修改&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;5、后台线程定时刷新，有一个后台线程每隔1秒就会把redo log buffer里的redo log block刷到磁盘文件里去&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;6、MySQL关闭的时候，redo log block都会刷入到磁盘里去&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="490" width="272" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-71" value="&lt;h2&gt;内存&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="545" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-72" value="&lt;h2&gt;磁盘&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="820" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-73" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="X0qLFLQMUrFtz5jlM0mA-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="550" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-74" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="X0qLFLQMUrFtz5jlM0mA-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="560" as="sourcePoint" />
+            <mxPoint x="130" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
