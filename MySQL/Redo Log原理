@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T06:09:02.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="E4SX2IRbuwCZn0anICjE" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-09T06:26:32.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="LlzSJu-XwQ4_WWKz8BWx" version="13.9.3" type="github">
   <diagram id="V5VCtJclp6yz3inocwlx" name="第 1 页">
     <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="172" y="520" width="508" height="200" as="geometry" />
+          <mxGeometry x="180" y="910" width="508" height="200" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="35" width="150" height="210" as="geometry" />
+          <mxGeometry x="530" y="35" width="252" height="210" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="292" y="60" width="156" height="390" as="geometry" />
@@ -50,94 +50,163 @@
           <mxGeometry x="315" y="346" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-14" value="块编号block no&lt;br&gt;(4个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="75" width="130" height="40" as="geometry" />
+          <mxGeometry x="542" y="70" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X0qLFLQMUrFtz5jlM0mA-15" value="已经写入数据长度&lt;br&gt;(2个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="115" width="130" height="40" as="geometry" />
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-15" value="已经写入数据长度data length&lt;br&gt;(2个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="110" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X0qLFLQMUrFtz5jlM0mA-16" value="第一个日志分组偏移量&lt;br&gt;(2个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="155" width="130" height="40" as="geometry" />
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-16" value="第一个日志分组偏移量first record group&lt;br&gt;(2个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="150" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-17" value="checkpoint no&lt;br&gt;(4个字节)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="195" width="130" height="40" as="geometry" />
+          <mxGeometry x="542" y="190" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-20" value="header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="585" y="45" width="40" height="20" as="geometry" />
+          <mxGeometry x="636" y="35" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-23" value="redo log&lt;br&gt;一个日志文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="361" y="530" width="130" height="30" as="geometry" />
+          <mxGeometry x="369" y="920" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-24" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="193" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-25" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="273" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-26" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="353" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-27" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="438" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-28" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="518" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-29" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="564" width="80" height="30" as="geometry" />
+          <mxGeometry x="598" y="954" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-30" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="193" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-31" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="273" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-32" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="353" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-33" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="438" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-34" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="518" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-35" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="600" width="80" height="30" as="geometry" />
+          <mxGeometry x="598" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-36" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="193" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-37" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="273" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-38" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="353" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-39" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="438" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-40" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="518" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-41" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="640" width="80" height="30" as="geometry" />
+          <mxGeometry x="598" y="1030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-42" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="193" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-43" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="273" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-44" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="353" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-45" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="438" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-46" value="body" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="518" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X0qLFLQMUrFtz5jlM0mA-47" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="680" width="80" height="30" as="geometry" />
+          <mxGeometry x="598" y="1070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="510" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-49" value="redo log buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-50" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="540" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-51" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-52" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-53" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="540" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-54" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-55" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-56" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-57" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-58" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-59" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-60" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-61" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-62" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="660" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-63" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="660" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-64" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="660" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-65" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="660" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-66" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-67" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-68" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-69" value="redo log block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qLFLQMUrFtz5jlM0mA-70" value="&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;1、redo log buffer是申请出来的一片连续内存，然后里面划分出了N多个空的redo log block，类似于buffer pool&lt;/p&gt;&lt;p style=&quot;text-align: left ; margin: 0px ; font-stretch: normal ; line-height: normal ; color: rgb(40 , 40 , 40)&quot;&gt;2、通过设置mysql的innodb_log_buffer_size可以指定这个redo log buffer的大小，默认的值就是16MB，其实已经够大了，毕 竟一个redo log block才512自己而已，每一条redo log其实也就几个字节到几十个字节罢了。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="272" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
