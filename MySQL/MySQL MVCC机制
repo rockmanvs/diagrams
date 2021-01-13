@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T23:39:50.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="dD3jGsh61v0I7bn7Yale" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T00:20:20.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="HX_sriwoGJYqsK-lRhA2" version="13.9.3" type="github">
   <diagram id="wIKTGYlSUBiuST5157WC" name="第 1 页">
     <mxGraphModel dx="1026" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,14 @@
         <mxCell id="1" parent="0" />
         <mxCell id="HKSiE7rcDgFYg2qkNwbE-40" value="当前min_trx_id是否大于undo log trx_id&lt;br&gt;如果大于表示undo log数据在生成ReadView前已经提交&lt;br&gt;表示可以查询该数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HKSiE7rcDgFYg2qkNwbE-34" target="HKSiE7rcDgFYg2qkNwbE-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKSiE7rcDgFYg2qkNwbE-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HKSiE7rcDgFYg2qkNwbE-34" target="HKSiE7rcDgFYg2qkNwbE-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKSiE7rcDgFYg2qkNwbE-47" value="当前min_trx_id是否大于undo log trx_id&lt;br&gt;如果大于表示undo log数据在生成ReadView前已经提交&lt;br&gt;当前是45&amp;lt;59，同时小于max_trx_id即59&amp;lt;60，&lt;br&gt;说明该数据可能跟自己是同一时间段内的事务，&lt;br&gt;再查m_ids里，果然有它。&lt;br&gt;表示不能查询该数据，要顺着roll_pointer向前找undo log&lt;br&gt;于是找到了值C的undo log" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKSiE7rcDgFYg2qkNwbE-46">
+          <mxGeometry x="0.008" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HKSiE7rcDgFYg2qkNwbE-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-290" width="420" height="90" as="geometry" />
@@ -129,6 +137,9 @@
         </mxCell>
         <mxCell id="HKSiE7rcDgFYg2qkNwbE-43" value="roll_pointer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="-60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HKSiE7rcDgFYg2qkNwbE-48" value="&lt;div style=&quot;text-align: left&quot;&gt;1、RC隔离级别下，事务里每次select都会生成一个ReadView以判断m_ids里是否有读取到的undo log里的trx_id，如果没有说明这个undo log里的值是非活跃的事务提交修改的，即可读取到提交过的值；如果m_ids里有该trx_id，说明修改该值的事务还没提交，即不能读取到该更新值。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、RR隔离级别下，事务里第一次select会生成一个ReadView，该ReadView是不会改变的，如果读取到的undo log里的trx_id是大于min_id或者在m_ids里的话，即之后提交的事务，要顺着roll_pointer找前一条undo log数据&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-170" width="380" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
